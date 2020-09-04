@@ -1,0 +1,63 @@
+body{
+    height: 100vh;
+}
+div#container{
+    background-color: var(--purple-secondary);
+    height: 100%;
+}
+main{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+div.chat-container{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+}
+div.messages{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+}
+
+
+.text-input-wrapper{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.text-input-wrapper input{
+    height: 40px;
+    box-sizing: border-box;
+    padding: 14px;
+    outline: none;
+    color: #f1f1f1;
+    background-color: var(--purple-regular);
+    border: 0;
+    font-weight: 400;
+}
+.text-input-wrapper button{
+    background-color: var(--purple-light);
+    color: #f1f1f1;
+    font-weight: bold;
+    border: 0;
+}
+
+span.edit{
+    font-size: 8px;
+    font-weight: 400;
+    font-style: italic;
+    margin: 0 5px;
+    color: rgb(192, 192, 192);
+}

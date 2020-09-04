@@ -1,0 +1,21 @@
+form .button-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media (min-width: 720px){
+    form .button-wrapper{
+        display: grid;
+        grid-template: 1fr 1fr 1fr;
+    }
+    main::after{
+        content: '';
+        width: 500px;
+        height: 500px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url('https://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Picture.png');
+    }
+}

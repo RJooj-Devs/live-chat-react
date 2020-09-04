@@ -12,16 +12,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App{
+  height: 100vh;
+  overflow-y: auto;
+}
 
 :root{
-  --purple-darker: #10002B;
-  --purple-dark: #240046;
-  --purple-semiDark: #3C096C;
-  --purple-primary: #5A189A;
-  --purple-secondary: #7B2CBF;
-  --purple-soft: #C77DFF;
-  --purple-light: #E0AAFF;
-  --purple-regular: #9D4EDD;
+  --purple-darker: 	#1e2124;
+  --purple-dark: #282b30;
+  --purple-semiDark: #282b30;
+  --purple-primary: #282b30;
+  --purple-secondary: #36393e;
+  --purple-soft: #282b30;
+  --purple-light: #7289da;
+  --purple-regular: #424549;
 }
 
 a{
